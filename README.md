@@ -1,11 +1,10 @@
 # React Template Lite
 
 ## Main Stack
-- Framework: `React 18`
-- SPA: `React Router DOM`
+
+- Framework: `React 18` `Vite` `TypeScript`
+- Route: `React Router DOM@6` + `vite-plugin-pages` for file based routers
 - CSS: `Uno CSS` with tailwind style & dark-mode
-- Lint: `ESLint` + `@vercel/style-guide`
-- Language: `TypeScript`
-- Format: `Prettier`
-- Tools: `react-use`
-- Icons: `iconify` `@uno/plugin-icons` (install @iconify-json/* when you need)
+- Lint & Format: `ESLint` + `Prettier` + `@vercel/style-guide`
+- Tool libs: `react-use`
+- Icons: `iconify` `@uno/plugin-icons` (install @iconify-json/\* when you need)

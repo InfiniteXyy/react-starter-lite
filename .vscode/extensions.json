@@ -3,7 +3,7 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "streetsidesoftware.code-spell-checker",
-    "antfu.unocss",
-    "antfu.vite"
+    "antfu.iconify",
+    "antfu.unocss"
   ]
 }
