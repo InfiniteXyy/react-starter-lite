@@ -1,0 +1,10 @@
+node_modules
+dist
+public
+
+
+.eslintrc.js
+vite.config.ts
+windi.config.ts
+prettier.config.js
+auto-import.d.ts
