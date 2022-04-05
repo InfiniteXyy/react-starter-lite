@@ -3,6 +3,7 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "streetsidesoftware.code-spell-checker",
-    "voorjaar.windicss-intellisense"
+    "antfu.unocss",
+    "antfu.vite"
   ]
 }

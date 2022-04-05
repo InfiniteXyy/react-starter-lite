@@ -5,6 +5,6 @@ public
 
 .eslintrc.js
 vite.config.ts
-windi.config.ts
+uno.config.ts
 prettier.config.js
 auto-import.d.ts
