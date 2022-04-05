@@ -4,14 +4,23 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <meta name="keywords" content="FIXME:">
-  <meta name="description" content="FIXME:">
-  <title>FIXME:</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="React Template Starter Lite">
+  <meta name="description" content="React Template Starter Lite">
+  <title>React Template Starter Lite</title>
 </head>
 
 <body>
   <div id="root"></div>
+  <!-- Dark Mode -->
+  <script>
+    (function () {
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.body.classList.toggle('dark', true)
+    })()
+  </script>
   <script type="module" src="/src/index.tsx"></script>
 </body>
 

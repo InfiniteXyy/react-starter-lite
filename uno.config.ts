@@ -1,7 +1,7 @@
 import { defineConfig, presetUno, presetIcons, presetAttributify } from 'unocss'
 
 export default defineConfig({
-  presets: [presetUno({ dark: 'media' }), presetAttributify(), presetIcons({ warn: true })],
+  presets: [presetUno({ dark: 'class' }), presetAttributify(), presetIcons({ warn: true })],
   theme: {
     // Desktop first settings https://windicss.org/utilities/general/variants.html#desktop-first
     print: { raw: 'print' },

@@ -18,10 +18,7 @@
       "@/*": [
         "./src/*"
       ],
-    },
-    "types": [
-      "unplugin-icons/types/react",
-    ]
+    }
   },
   "include": [
     "./src"
