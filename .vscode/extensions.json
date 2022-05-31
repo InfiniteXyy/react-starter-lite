@@ -4,6 +4,6 @@
     "esbenp.prettier-vscode",
     "streetsidesoftware.code-spell-checker",
     "antfu.iconify",
-    "antfu.unocss"
+    "bradlc.vscode-tailwindcss"
   ]
 }
