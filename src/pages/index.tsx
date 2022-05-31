@@ -1,11 +1,11 @@
 export default function IndexPage() {
-  const [input, setInput] = useState('')
+  const [input, setInput] = useState('');
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
       <input
-        className="border-dark-500 dark:border-light-600 my-2 border-b-2 bg-transparent transition focus:border-blue-400 focus:outline-none"
+        className="my-2 border-b-2 border-neutral-600 bg-transparent transition focus:border-blue-400 focus:outline-none dark:border-neutral-200"
         onChange={(e) => setInput(e.target.value)}
         placeholder="Your name"
         value={input}
@@ -20,5 +20,5 @@ export default function IndexPage() {
         <div className="i-carbon-chevron-right ml-1 print:hidden" />
       </button>
     </>
-  )
+  );
 }
