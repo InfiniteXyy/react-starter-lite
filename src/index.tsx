@@ -16,10 +16,8 @@ function App() {
         <nav className="inline-block space-x-2 text-blue-500">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
+          <a href="https://github.com/InfiniteXyy/react-starter-lite">Github</a>
         </nav>
-        <a href="https://github.com/InfiniteXyy/react-starter-lite">
-          <div className="i-[simple-icons-github] text-xl" />
-        </a>
         <button onClick={toggleDarkMode} type="button">
           <div className={clsx(isDarkMode ? 'i-[carbon-sun]' : 'i-[carbon-moon]', 'text-2xl')} />
         </button>
