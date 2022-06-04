@@ -5,7 +5,7 @@ specifiers:
   '@iconify-json/carbon': 1.1.5
   '@svgr/core': 6.2.1
   '@types/node': 17.0.36
-  '@types/react': 18.0.9
+  '@types/react': 18.0.11
   '@types/react-dom': 18.0.5
   '@typescript-eslint/eslint-plugin': 5.27.0
   '@typescript-eslint/parser': 5.27.0
@@ -41,7 +41,7 @@ devDependencies:
   '@iconify-json/carbon': 1.1.5
   '@svgr/core': 6.2.1
   '@types/node': 17.0.36
-  '@types/react': 18.0.9
+  '@types/react': 18.0.11
   '@types/react-dom': 18.0.5
   '@typescript-eslint/eslint-plugin': 5.27.0_ggfhmjd2gcmyxfvpoza5szm32a
   '@typescript-eslint/parser': 5.27.0_blx5qwtqxfukidcbfrsfa7cnnq
@@ -671,11 +671,11 @@ packages:
   /@types/react-dom/18.0.5:
     resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
     dependencies:
-      '@types/react': 18.0.9
+      '@types/react': 18.0.11
     dev: true
 
-  /@types/react/18.0.9:
-    resolution: {integrity: sha512-9bjbg1hJHUm4De19L1cHiW0Jvx3geel6Qczhjd0qY5VKVE2X5+x77YxAepuCwVh4vrgZJdgEJw48zrhRIeF4Nw==}
+  /@types/react/18.0.11:
+    resolution: {integrity: sha512-JxSwm54IgMW4XTR+zFF5QpNx4JITmFbB4WHR2J0vg9RpjNeyqEMlODXsD2e64br6GX70TL0UYjZJETpyyC1WdA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
