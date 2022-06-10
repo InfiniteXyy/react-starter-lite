@@ -22,7 +22,7 @@ specifiers:
   react-dom: 18.1.0
   react-router-dom: 6.3.0
   react-use: 17.4.0
-  tailwindcss: 3.0.24
+  tailwindcss: 3.1.2
   tailwindcss-iconify: 0.0.3
   typescript: 4.7.3
   unplugin-auto-import: 0.8.7
@@ -53,8 +53,8 @@ devDependencies:
   prettier: 2.6.2
   prettier-plugin-organize-imports: 2.3.4_swzprww56tbt6xqyypkb3snuza
   prettier-plugin-tailwindcss: 0.1.11_prettier@2.6.2
-  tailwindcss: 3.0.24
-  tailwindcss-iconify: 0.0.3_tailwindcss@3.0.24
+  tailwindcss: 3.1.2
+  tailwindcss-iconify: 0.0.3_tailwindcss@3.1.2
   typescript: 4.7.3
   unplugin-auto-import: 0.8.7_vite@2.9.12
   vite: 2.9.12
@@ -3108,6 +3108,11 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
+  /pify/2.3.0:
+    resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
   /pkg-types/0.3.2:
     resolution: {integrity: sha512-eBYzX/7NYsQEOR2alWY4rnQB49G62oHzFpoi9Som56aUr8vB8UGcmcIia9v8fpBeuhH3Ltentuk2OGpp4IQV3Q==}
     dependencies:
@@ -3119,6 +3124,18 @@ packages:
   /pluralize/8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
+    dev: true
+
+  /postcss-import/14.1.0_postcss@8.4.14:
+    resolution: {integrity: sha512-flwI+Vgm4SElObFVPpTIT7SU7R3qk2L7PyduMcokiaVKuWv9d/U+Gm/QAd8NDLuykTWTkcrjOeD2Pp1rMeBTGw==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      postcss: ^8.0.0
+    dependencies:
+      postcss: 8.4.14
+      postcss-value-parser: 4.2.0
+      read-cache: 1.0.0
+      resolve: 1.22.0
     dev: true
 
   /postcss-js/4.0.0_postcss@8.4.14:
@@ -3311,6 +3328,12 @@ packages:
     dependencies:
       loose-envify: 1.4.0
     dev: false
+
+  /read-cache/1.0.0:
+    resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
+    dependencies:
+      pify: 2.3.0
+    dev: true
 
   /read-pkg-up/7.0.1:
     resolution: {integrity: sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg==}
@@ -3657,19 +3680,19 @@ packages:
     resolution: {integrity: sha512-e4hG1hRwoOdRb37cIMSgzNsxyzKfayW6VOflrwvR+/bzrkyxY/31WkbgnQpgtrNp1SdpJvpUAGTa/ZoiPNDuRQ==}
     dev: true
 
-  /tailwindcss-iconify/0.0.3_tailwindcss@3.0.24:
+  /tailwindcss-iconify/0.0.3_tailwindcss@3.1.2:
     resolution: {integrity: sha512-yL9y6WriS3QuYtJoKS39bsp+AGsBu3Y/49T3tO4f43tQx/Ry9yLl+IZZuU8i4dYVkYb7B6Elpu5VCCbhCsZZZA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 <=4'
     dependencies:
       '@iconify/utils': 1.0.32
-      tailwindcss: 3.0.24
+      tailwindcss: 3.1.2
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /tailwindcss/3.0.24:
-    resolution: {integrity: sha512-H3uMmZNWzG6aqmg9q07ZIRNIawoiEcNFKDfL+YzOPuPsXuDXxJxB9icqzLgdzKNwjG3SAro2h9SYav8ewXNgig==}
+  /tailwindcss/3.1.2:
+    resolution: {integrity: sha512-yJ6L5s1U5AeS5g7HHy212zdQfjwD426FBfm59pet/JsyneuZuD4C2W7PpJEg4ppisiB21uLqtNagv8KXury3+Q==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
@@ -3687,6 +3710,7 @@ packages:
       object-hash: 3.0.0
       picocolors: 1.0.0
       postcss: 8.4.14
+      postcss-import: 14.1.0_postcss@8.4.14
       postcss-js: 4.0.0_postcss@8.4.14
       postcss-load-config: 3.1.4_postcss@8.4.14
       postcss-nested: 5.0.6_postcss@8.4.14
