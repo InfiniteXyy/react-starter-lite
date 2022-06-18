@@ -15,7 +15,7 @@ specifiers:
   clsx: 1.1.1
   eslint: 8.18.0
   postcss: 8.4.14
-  prettier: 2.6.2
+  prettier: 2.7.1
   prettier-plugin-organize-imports: 2.3.4
   prettier-plugin-tailwindcss: 0.1.11
   react: 18.1.0
@@ -45,14 +45,14 @@ devDependencies:
   '@types/react-dom': 18.0.5
   '@typescript-eslint/eslint-plugin': 5.27.1_prjfczuxx7fymtpeimewpv7ya4
   '@typescript-eslint/parser': 5.27.1_b5e7v2qnwxfo6hmiq56u52mz3e
-  '@vercel/style-guide': 3.0.0_vi6lym2vht2jug34qr6tmfrphe
+  '@vercel/style-guide': 3.0.0_acq4ij3nowfzujzdewbdknzyoa
   '@vitejs/plugin-react': 1.3.2
   autoprefixer: 10.4.7_postcss@8.4.14
   eslint: 8.18.0
   postcss: 8.4.14
-  prettier: 2.6.2
-  prettier-plugin-organize-imports: 2.3.4_tcb6n2knpcciee2rcsrxmmqv4a
-  prettier-plugin-tailwindcss: 0.1.11_prettier@2.6.2
+  prettier: 2.7.1
+  prettier-plugin-organize-imports: 2.3.4_gd3y7r3s3evy6b2vthd7dmacga
+  prettier-plugin-tailwindcss: 0.1.11_prettier@2.7.1
   tailwindcss: 3.1.3
   tailwindcss-iconify: 0.0.3_tailwindcss@3.1.3
   typescript: 4.7.4
@@ -938,7 +938,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vercel/style-guide/3.0.0_vi6lym2vht2jug34qr6tmfrphe:
+  /@vercel/style-guide/3.0.0_acq4ij3nowfzujzdewbdknzyoa:
     resolution: {integrity: sha512-4hAlUpXrgty3eWOmYuVMjMxhsYaw0wFZAgFNlsrwp5LM6iPcjZXKbhEi3z3QZIJ7Mkixtg0gpYfq9oNzZgEahA==}
     peerDependencies:
       eslint: ^8.12.0
@@ -962,7 +962,7 @@ packages:
       eslint-plugin-testing-library: 5.1.0_b5e7v2qnwxfo6hmiq56u52mz3e
       eslint-plugin-tsdoc: 0.2.14
       eslint-plugin-unicorn: 41.0.1_eslint@8.18.0
-      prettier: 2.6.2
+      prettier: 2.7.1
     transitivePeerDependencies:
       - '@babel/core'
       - eslint-import-resolver-webpack
@@ -3201,27 +3201,27 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-organize-imports/2.3.4_tcb6n2knpcciee2rcsrxmmqv4a:
+  /prettier-plugin-organize-imports/2.3.4_gd3y7r3s3evy6b2vthd7dmacga:
     resolution: {integrity: sha512-R8o23sf5iVL/U71h9SFUdhdOEPsi3nm42FD/oDYIZ2PQa4TNWWuWecxln6jlIQzpZTDMUeO1NicJP6lLn2TtRw==}
     peerDependencies:
       prettier: '>=2.0'
       typescript: '>=2.9'
     dependencies:
-      prettier: 2.6.2
+      prettier: 2.7.1
       typescript: 4.7.4
     dev: true
 
-  /prettier-plugin-tailwindcss/0.1.11_prettier@2.6.2:
+  /prettier-plugin-tailwindcss/0.1.11_prettier@2.7.1:
     resolution: {integrity: sha512-a28+1jvpIZQdZ/W97wOXb6VqI762MKE/TxMMuibMEHhyYsSxQA8Ek30KObd5kJI2HF1ldtSYprFayXJXi3pz8Q==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
     dependencies:
-      prettier: 2.6.2
+      prettier: 2.7.1
     dev: true
 
-  /prettier/2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
