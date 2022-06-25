@@ -6,10 +6,12 @@ module.exports = {
   ],
   rules: {
     'react/jsx-no-undef': 'off',
+    'react/jsx-sort-props': 'off',
     'import/no-default-export': 'off',
+    'import/order': 'off',
   },
   parserOptions: {
     tsconfigRootDir: __dirname,
     project: ['./tsconfig.json'],
   },
-}
+};
