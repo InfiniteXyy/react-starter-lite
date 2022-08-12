@@ -26,7 +26,7 @@ specifiers:
   tailwindcss-iconify: 0.0.3
   typescript: 4.7.4
   unplugin-auto-import: 0.11.1
-  vite: 3.0.4
+  vite: 3.0.7
   vite-plugin-pages: 0.25.0
 
 dependencies:
@@ -46,7 +46,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.32.0_iosr3hrei2tubxveewluhu5lhy
   '@typescript-eslint/parser': 5.32.0_qugx7qdu5zevzvxaiqyxfiwquq
   '@vercel/style-guide': 3.0.0_bzynruo77vejb75mdxk6oj2lfm
-  '@vitejs/plugin-react': 2.0.1_vite@3.0.4
+  '@vitejs/plugin-react': 2.0.1_vite@3.0.7
   autoprefixer: 10.4.8_postcss@8.4.16
   eslint: 8.21.0
   postcss: 8.4.16
@@ -56,9 +56,9 @@ devDependencies:
   tailwindcss: 3.1.8
   tailwindcss-iconify: 0.0.3_tailwindcss@3.1.8
   typescript: 4.7.4
-  unplugin-auto-import: 0.11.1_vite@3.0.4
-  vite: 3.0.4
-  vite-plugin-pages: 0.25.0_vite@3.0.4
+  unplugin-auto-import: 0.11.1_vite@3.0.7
+  vite: 3.0.7
+  vite-plugin-pages: 0.25.0_vite@3.0.7
 
 packages:
 
@@ -986,7 +986,7 @@ packages:
       - typescript
     dev: true
 
-  /@vitejs/plugin-react/2.0.1_vite@3.0.4:
+  /@vitejs/plugin-react/2.0.1_vite@3.0.7:
     resolution: {integrity: sha512-uINzNHmjrbunlFtyVkST6lY1ewSfz/XwLufG0PIqvLGnpk2nOIOa/1CACTDNcKi1/RwaCzJLmsXwm1NsUVV/NA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -999,7 +999,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.18.6_@babel+core@7.18.10
       magic-string: 0.26.2
       react-refresh: 0.14.0
-      vite: 3.0.4
+      vite: 3.0.7
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3867,7 +3867,7 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /unimport/0.6.5_vite@3.0.4:
+  /unimport/0.6.5_vite@3.0.7:
     resolution: {integrity: sha512-B8x6+GiYUzDphN6Iaoshu99mUo8n7QCq13QTY2Z8saj1QBmGKXf+vJJlptfL3MdOmzxpve2Ikx91UZ4Qoz4dVQ==}
     dependencies:
       '@rollup/pluginutils': 4.2.1
@@ -3879,7 +3879,7 @@ packages:
       pathe: 0.3.3
       scule: 0.3.2
       strip-literal: 0.4.0
-      unplugin: 0.8.1_vite@3.0.4
+      unplugin: 0.8.1_vite@3.0.7
     transitivePeerDependencies:
       - esbuild
       - rollup
@@ -3887,7 +3887,7 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-auto-import/0.11.1_vite@3.0.4:
+  /unplugin-auto-import/0.11.1_vite@3.0.7:
     resolution: {integrity: sha512-3KMbjc3Sv2h1osgQ16uKmD2XHb8MLK3Lj5Twzo3x2vDexYdNKjVljLZUX+eT5cvh2f1VzJR77dkzDhdEi9+1uw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -3900,8 +3900,8 @@ packages:
       '@rollup/pluginutils': 4.2.1
       local-pkg: 0.4.2
       magic-string: 0.26.2
-      unimport: 0.6.5_vite@3.0.4
-      unplugin: 0.9.0_vite@3.0.4
+      unimport: 0.6.5_vite@3.0.7
+      unplugin: 0.9.0_vite@3.0.7
     transitivePeerDependencies:
       - esbuild
       - rollup
@@ -3909,7 +3909,7 @@ packages:
       - webpack
     dev: true
 
-  /unplugin/0.8.1_vite@3.0.4:
+  /unplugin/0.8.1_vite@3.0.7:
     resolution: {integrity: sha512-o7rUZoPLG1fH4LKinWgb77gDtTE6mw/iry0Pq0Z5UPvZ9+HZ1/4+7fic7t58s8/CGkPrDpGq+RltO+DmswcR4g==}
     peerDependencies:
       esbuild: '>=0.13'
@@ -3928,12 +3928,12 @@ packages:
     dependencies:
       acorn: 8.8.0
       chokidar: 3.5.3
-      vite: 3.0.4
+      vite: 3.0.7
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.4.4
     dev: true
 
-  /unplugin/0.9.0_vite@3.0.4:
+  /unplugin/0.9.0_vite@3.0.7:
     resolution: {integrity: sha512-6o7q8Y9yxdPi5yCPmRuFfeNnVzGumRNZSK6hIkvZ6hd0cfigVdm0qBx/GgQ/NEjs54eUV1qTjvMYKRs9yh3rzw==}
     peerDependencies:
       esbuild: '>=0.13'
@@ -3952,7 +3952,7 @@ packages:
     dependencies:
       acorn: 8.8.0
       chokidar: 3.5.3
-      vite: 3.0.4
+      vite: 3.0.7
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.4.4
     dev: true
@@ -3989,7 +3989,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-pages/0.25.0_vite@3.0.4:
+  /vite-plugin-pages/0.25.0_vite@3.0.7:
     resolution: {integrity: sha512-q0SX2iSw0UrTnivkzsPb19ZxamShq1nE/e/CKOe8+uVg70/e14uJuzKnw7dZ2omPjmV9Lhks38nzJL6RDRGmeA==}
     peerDependencies:
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
@@ -4006,14 +4006,14 @@ packages:
       json5: 2.2.1
       local-pkg: 0.4.1
       picocolors: 1.0.0
-      vite: 3.0.4
+      vite: 3.0.7
       yaml: 2.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.0.4:
-    resolution: {integrity: sha512-NU304nqnBeOx2MkQnskBQxVsa0pRAH5FphokTGmyy8M3oxbvw7qAXts2GORxs+h/2vKsD+osMhZ7An6yK6F1dA==}
+  /vite/3.0.7:
+    resolution: {integrity: sha512-dILhvKba1mbP1wCezVQx/qhEK7/+jVn9ciadEcyKMMhZpsuAi/eWZfJRMkmYlkSFG7Qq9NvJbgFq4XOBxugJsA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
