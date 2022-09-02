@@ -16,7 +16,7 @@ specifiers:
   eslint: 8.23.0
   postcss: 8.4.16
   prettier: 2.7.1
-  prettier-plugin-organize-imports: 3.1.0
+  prettier-plugin-organize-imports: 3.1.1
   prettier-plugin-tailwindcss: 0.1.13
   react: 18.2.0
   react-dom: 18.2.0
@@ -51,7 +51,7 @@ devDependencies:
   eslint: 8.23.0
   postcss: 8.4.16
   prettier: 2.7.1
-  prettier-plugin-organize-imports: 3.1.0_3izbkkkilozjwunt7rvlqzc6b4
+  prettier-plugin-organize-imports: 3.1.1_3izbkkkilozjwunt7rvlqzc6b4
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   tailwindcss: 3.1.8_postcss@8.4.16
   tailwindcss-iconify: 0.0.3_tailwindcss@3.1.8
@@ -3254,10 +3254,10 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-organize-imports/3.1.0_3izbkkkilozjwunt7rvlqzc6b4:
-    resolution: {integrity: sha512-eufD78FKdkDTyyY9oKxuwEMrfz4/AXrGeyeyjqiRtSBr01DAdGFTq4SgIKvLeqlLkq+ZPJ2H0+BK0e6flRUwJQ==}
+  /prettier-plugin-organize-imports/3.1.1_3izbkkkilozjwunt7rvlqzc6b4:
+    resolution: {integrity: sha512-6bHIQzybqA644h0WGUW3gpWEVbMBvzui5wCMRBi7qA++d5ov2xjjfDk8pxJJ/ardfZrGAwizKMq/fQMFdJ+0Zw==}
     peerDependencies:
-      '@volar/vue-typescript': '>=0.39.0'
+      '@volar/vue-typescript': '>=0.40.2'
       prettier: '>=2.0'
       typescript: '>=2.9'
     peerDependenciesMeta:
