@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.20.2",
-    "@iconify-json/carbon": "1.1.9",
+    "@iconify-json/carbon": "1.1.10",
     "@svgr/core": "6.5.1",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
