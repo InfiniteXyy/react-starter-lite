@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': 7.20.2
-  '@iconify-json/carbon': 1.1.10
+  '@iconify-json/carbon': 1.1.11
   '@svgr/core': 6.5.1
   '@types/node': 18.11.9
   '@types/react': 18.0.25
@@ -38,7 +38,7 @@ dependencies:
 
 devDependencies:
   '@babel/core': 7.20.2
-  '@iconify-json/carbon': 1.1.10
+  '@iconify-json/carbon': 1.1.11
   '@svgr/core': 6.5.1
   '@types/node': 18.11.9
   '@types/react': 18.0.25
@@ -432,8 +432,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/carbon/1.1.10:
-    resolution: {integrity: sha512-k3/28wk+2CklUPdKBXWhPHQxquvLGiPYk1s6UWdQYR3YtneHRMuCp+0zc9yNjHYBzoSylMIECO0UPH+SdccguA==}
+  /@iconify-json/carbon/1.1.11:
+    resolution: {integrity: sha512-IHkHSNmTM6q6b8DuKSzd+AEMYPZywSxcb+37kZU7ywtcwsGen3aVEvWFykopIWjjwj3xdZ/5UdwJRqhZDQMlNg==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
