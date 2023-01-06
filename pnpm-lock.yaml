@@ -10,7 +10,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.47.1
   '@typescript-eslint/parser': 5.47.1
   '@vercel/style-guide': 4.0.2
-  '@vitejs/plugin-react': 3.0.0
+  '@vitejs/plugin-react': 3.0.1
   autoprefixer: 10.4.13
   clsx: 1.2.1
   eslint: 8.31.0
@@ -46,7 +46,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.47.1_axni7f4fgvh6tlufnh6hwgsifq
   '@typescript-eslint/parser': 5.47.1_iukboom6ndih5an6iafl45j2fe
   '@vercel/style-guide': 4.0.2_pizzqsi6myk3636ihwmmh4mlr4
-  '@vitejs/plugin-react': 3.0.0_vite@4.0.3
+  '@vitejs/plugin-react': 3.0.1_vite@4.0.3
   autoprefixer: 10.4.13_postcss@8.4.20
   eslint: 8.31.0
   postcss: 8.4.20
@@ -1078,8 +1078,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-react/3.0.0_vite@4.0.3:
-    resolution: {integrity: sha512-1mvyPc0xYW5G8CHQvJIJXLoMjl5Ct3q2g5Y2s6Ccfgwm45y48LBvsla7az+GkkAtYikWQ4Lxqcsq5RHLcZgtNQ==}
+  /@vitejs/plugin-react/3.0.1_vite@4.0.3:
+    resolution: {integrity: sha512-mx+QvYwIbbpOIJw+hypjnW1lAbKDHtWK5ibkF/V1/oMBu8HU/chb+SnqJDAsLq1+7rGqjktCEomMTM5KShzUKQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
