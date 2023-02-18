@@ -25,7 +25,7 @@ specifiers:
   tailwindcss: 3.2.7
   tailwindcss-iconify: 0.0.3
   typescript: 4.9.5
-  unplugin-auto-import: 0.14.2
+  unplugin-auto-import: 0.14.3
   vite: 4.1.1
   vite-plugin-pages: 0.28.0
 
@@ -56,7 +56,7 @@ devDependencies:
   tailwindcss: 3.2.7_postcss@8.4.21
   tailwindcss-iconify: 0.0.3_tailwindcss@3.2.7
   typescript: 4.9.5
-  unplugin-auto-import: 0.14.2
+  unplugin-auto-import: 0.14.3
   vite: 4.1.1_@types+node@18.13.0
   vite-plugin-pages: 0.28.0_vite@4.1.1
 
@@ -4362,8 +4362,8 @@ packages:
       - rollup
     dev: true
 
-  /unplugin-auto-import/0.14.2:
-    resolution: {integrity: sha512-6DptcCD+bKlxwK0yS4ehleZTvtG4Xl9k/XxhKWxc9ii2uE28HvcA3KbYpoHAzTlHDXRBrtcCAohR8vtIRB5bfg==}
+  /unplugin-auto-import/0.14.3:
+    resolution: {integrity: sha512-6eCHLnsOPwLjNZHQkb95S5jbTWW2JH/jKiQUzTeWJAb8XFpDFZPEhxDeIDAr7HOF76Nz6EGhKF8PQduzygdICg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
