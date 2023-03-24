@@ -26,7 +26,7 @@ specifiers:
   tailwindcss-iconify: 0.0.3
   typescript: 5.0.2
   unplugin-auto-import: 0.15.2
-  vite: 4.2.0
+  vite: 4.2.1
   vite-plugin-pages: 0.29.0
 
 dependencies:
@@ -46,7 +46,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.55.0_qsnvknysi52qtaxqdyqyohkcku
   '@typescript-eslint/parser': 5.55.0_j4766f7ecgqbon3u7zlxn5zszu
   '@vercel/style-guide': 4.0.2_t6jrriapi62nb4oh2yzddg3yn4
-  '@vitejs/plugin-react': 3.1.0_vite@4.2.0
+  '@vitejs/plugin-react': 3.1.0_vite@4.2.1
   autoprefixer: 10.4.14_postcss@8.4.21
   eslint: 8.36.0
   postcss: 8.4.21
@@ -57,8 +57,8 @@ devDependencies:
   tailwindcss-iconify: 0.0.3_tailwindcss@3.2.7
   typescript: 5.0.2
   unplugin-auto-import: 0.15.2
-  vite: 4.2.0_@types+node@18.15.8
-  vite-plugin-pages: 0.29.0_vite@4.2.0
+  vite: 4.2.1_@types+node@18.15.8
+  vite-plugin-pages: 0.29.0_vite@4.2.1
 
 packages:
 
@@ -1100,7 +1100,7 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-react/3.1.0_vite@4.2.0:
+  /@vitejs/plugin-react/3.1.0_vite@4.2.1:
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1111,7 +1111,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.21.3
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.2.0_@types+node@18.15.8
+      vite: 4.2.1_@types+node@18.15.8
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4145,7 +4145,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-pages/0.29.0_vite@4.2.0:
+  /vite-plugin-pages/0.29.0_vite@4.2.1:
     resolution: {integrity: sha512-vRgLflQNMs8QnDB8A5XwX8b2XYSIN1Mdy3Bx7A7N9NTFeybRj/zpvoosdbMgJ3LsJ84AznHC3GytWQZGNpE5BA==}
     peerDependencies:
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
@@ -4162,14 +4162,14 @@ packages:
       json5: 2.2.3
       local-pkg: 0.4.3
       picocolors: 1.0.0
-      vite: 4.2.0_@types+node@18.15.8
+      vite: 4.2.1_@types+node@18.15.8
       yaml: 2.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/4.2.0_@types+node@18.15.8:
-    resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
+  /vite/4.2.1_@types+node@18.15.8:
+    resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
