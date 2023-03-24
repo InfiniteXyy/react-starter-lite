@@ -35,7 +35,7 @@
     "tailwindcss": "3.2.7",
     "tailwindcss-iconify": "0.0.3",
     "typescript": "5.0.2",
-    "unplugin-auto-import": "0.15.1",
+    "unplugin-auto-import": "0.15.2",
     "vite": "4.2.0",
     "vite-plugin-pages": "0.29.0"
   }
