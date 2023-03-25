@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': 7.21.3
   '@iconify-json/carbon': 1.1.16
   '@svgr/core': 7.0.0
-  '@types/node': 18.15.8
+  '@types/node': 18.15.9
   '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
   '@typescript-eslint/eslint-plugin': 5.56.0
@@ -40,7 +40,7 @@ devDependencies:
   '@babel/core': 7.21.3
   '@iconify-json/carbon': 1.1.16
   '@svgr/core': 7.0.0
-  '@types/node': 18.15.8
+  '@types/node': 18.15.9
   '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
   '@typescript-eslint/eslint-plugin': 5.56.0_2hcjazgfnbtq42tcc73br2vup4
@@ -57,7 +57,7 @@ devDependencies:
   tailwindcss-iconify: 0.0.3_tailwindcss@3.2.7
   typescript: 5.0.2
   unplugin-auto-import: 0.15.2
-  vite: 4.2.1_@types+node@18.15.8
+  vite: 4.2.1_@types+node@18.15.9
   vite-plugin-pages: 0.29.0_vite@4.2.1
 
 packages:
@@ -839,7 +839,7 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.15.8
+      '@types/node': 18.15.9
     dev: true
 
   /@types/js-cookie/2.2.7:
@@ -862,8 +862,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node/18.15.8:
-    resolution: {integrity: sha512-kzGNJZ57XEH7RdckxZ7wfRjB9hgZABF+NLgR1B2zogUvV0gmK0/60VYA4yb4oKZckPiiJlmmfpdqTfCN0VRX+Q==}
+  /@types/node/18.15.9:
+    resolution: {integrity: sha512-dUxhiNzBLr6IqlZXz6e/rN2YQXlFgOei/Dxy+e3cyXTJ4txSUbGT2/fmnD6zd/75jDMeW5bDee+YXxlFKHoV0A==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1083,7 +1083,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.21.3
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.2.1_@types+node@18.15.8
+      vite: 4.2.1_@types+node@18.15.9
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4124,13 +4124,13 @@ packages:
       json5: 2.2.3
       local-pkg: 0.4.3
       picocolors: 1.0.0
-      vite: 4.2.1_@types+node@18.15.8
+      vite: 4.2.1_@types+node@18.15.9
       yaml: 2.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/4.2.1_@types+node@18.15.8:
+  /vite/4.2.1_@types+node@18.15.9:
     resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4155,7 +4155,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.15.8
+      '@types/node': 18.15.9
       esbuild: 0.17.12
       postcss: 8.4.21
       resolve: 1.22.1
