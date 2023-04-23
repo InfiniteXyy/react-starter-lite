@@ -44,7 +44,7 @@ devDependencies:
     version: 5.59.0(eslint@8.39.0)(typescript@5.0.4)
   '@vercel/style-guide':
     specifier: 4.0.2
-    version: 4.0.2(eslint@8.39.0)(prettier@2.8.7)(typescript@5.0.4)
+    version: 4.0.2(eslint@8.39.0)(prettier@2.8.8)(typescript@5.0.4)
   '@vitejs/plugin-react':
     specifier: 4.0.0
     version: 4.0.0(vite@4.3.1)
@@ -58,14 +58,14 @@ devDependencies:
     specifier: 8.4.23
     version: 8.4.23
   prettier:
-    specifier: 2.8.7
-    version: 2.8.7
+    specifier: 2.8.8
+    version: 2.8.8
   prettier-plugin-organize-imports:
     specifier: 3.2.2
-    version: 3.2.2(prettier@2.8.7)(typescript@5.0.4)
+    version: 3.2.2(prettier@2.8.8)(typescript@5.0.4)
   prettier-plugin-tailwindcss:
     specifier: 0.2.7
-    version: 0.2.7(prettier-plugin-organize-imports@3.2.2)(prettier@2.8.7)
+    version: 0.2.7(prettier-plugin-organize-imports@3.2.2)(prettier@2.8.8)
   tailwindcss:
     specifier: 3.3.1
     version: 3.3.1(postcss@8.4.23)
@@ -1056,7 +1056,7 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: true
 
-  /@vercel/style-guide@4.0.2(eslint@8.39.0)(prettier@2.8.7)(typescript@5.0.4):
+  /@vercel/style-guide@4.0.2(eslint@8.39.0)(prettier@2.8.8)(typescript@5.0.4):
     resolution: {integrity: sha512-FroL+oOePzhw7n/I+f7zr4WNroGHT/+2TlW6WH9+CVSjMNsEyu7Qstj2mI5gWIBjT1Y2ZImKPppCzI2cIYmNZw==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -1093,8 +1093,8 @@ packages:
       eslint-plugin-testing-library: 5.7.0(eslint@8.39.0)(typescript@5.0.4)
       eslint-plugin-tsdoc: 0.2.17
       eslint-plugin-unicorn: 43.0.2(eslint@8.39.0)
-      prettier: 2.8.7
-      prettier-plugin-packagejson: 2.3.0(prettier@2.8.7)
+      prettier: 2.8.8
+      prettier-plugin-packagejson: 2.3.0(prettier@2.8.8)
       typescript: 5.0.4
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
@@ -3335,7 +3335,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-organize-imports@3.2.2(prettier@2.8.7)(typescript@5.0.4):
+  /prettier-plugin-organize-imports@3.2.2(prettier@2.8.8)(typescript@5.0.4):
     resolution: {integrity: sha512-e97lE6odGSiHonHJMTYC0q0iLXQyw0u5z/PJpvP/3vRy6/Zi9kLBwFAbEGjDzIowpjQv8b+J04PDamoUSQbzGA==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
@@ -3348,11 +3348,11 @@ packages:
       '@volar/vue-typescript':
         optional: true
     dependencies:
-      prettier: 2.8.7
+      prettier: 2.8.8
       typescript: 5.0.4
     dev: true
 
-  /prettier-plugin-packagejson@2.3.0(prettier@2.8.7):
+  /prettier-plugin-packagejson@2.3.0(prettier@2.8.8):
     resolution: {integrity: sha512-2SAPMMk1UDkqsB7DifWKcwCm6VC52JXMrzLHfbcQHJRWhRCj9zziOy+s+2XOyPBeyqFqS+A/1IKzOrxKFTo6pw==}
     peerDependencies:
       prettier: '>= 1.16.0'
@@ -3360,11 +3360,11 @@ packages:
       prettier:
         optional: true
     dependencies:
-      prettier: 2.8.7
+      prettier: 2.8.8
       sort-package-json: 1.57.0
     dev: true
 
-  /prettier-plugin-tailwindcss@0.2.7(prettier-plugin-organize-imports@3.2.2)(prettier@2.8.7):
+  /prettier-plugin-tailwindcss@0.2.7(prettier-plugin-organize-imports@3.2.2)(prettier@2.8.8):
     resolution: {integrity: sha512-jQopIOgjLpX+y8HeD56XZw7onupRTC0cw7eKKUimI7vhjkPF5/1ltW5LyqaPtSyc8HvEpvNZsvvsGFa2qpa59w==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
@@ -3416,12 +3416,12 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
     dependencies:
-      prettier: 2.8.7
-      prettier-plugin-organize-imports: 3.2.2(prettier@2.8.7)(typescript@5.0.4)
+      prettier: 2.8.8
+      prettier-plugin-organize-imports: 3.2.2(prettier@2.8.8)(typescript@5.0.4)
     dev: true
 
-  /prettier@2.8.7:
-    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
+  /prettier@2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
