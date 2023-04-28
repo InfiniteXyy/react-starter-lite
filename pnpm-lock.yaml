@@ -28,8 +28,8 @@ devDependencies:
     specifier: 7.0.0
     version: 7.0.0
   '@types/node':
-    specifier: 18.16.0
-    version: 18.16.0
+    specifier: 18.16.2
+    version: 18.16.2
   '@types/react':
     specifier: 18.0.38
     version: 18.0.38
@@ -80,7 +80,7 @@ devDependencies:
     version: 0.15.3
   vite:
     specifier: 4.3.1
-    version: 4.3.1(@types/node@18.16.0)
+    version: 4.3.1(@types/node@18.16.2)
   vite-plugin-pages:
     specifier: 0.29.0
     version: 0.29.0(vite@4.3.1)
@@ -869,7 +869,7 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.16.0
+      '@types/node': 18.16.2
     dev: true
 
   /@types/js-cookie@2.2.7:
@@ -892,8 +892,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node@18.16.0:
-    resolution: {integrity: sha512-BsAaKhB+7X+H4GnSjGhJG9Qi8Tw+inU9nJDwmD5CgOmBLEI6ArdhikpLX7DjbjDRDTbqZzU2LSQNZg8WGPiSZQ==}
+  /@types/node@18.16.2:
+    resolution: {integrity: sha512-GQW/JL/5Fz/0I8RpeBG9lKp0+aNcXEaVL71c0D2Q0QHDTFvlYKT7an0onCUXj85anv7b4/WesqdfchLc0jtsCg==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -1112,7 +1112,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.21.0(@babel/core@7.21.4)
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.4)
       react-refresh: 0.14.0
-      vite: 4.3.1(@types/node@18.16.0)
+      vite: 4.3.1(@types/node@18.16.2)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4182,13 +4182,13 @@ packages:
       json5: 2.2.3
       local-pkg: 0.4.3
       picocolors: 1.0.0
-      vite: 4.3.1(@types/node@18.16.0)
+      vite: 4.3.1(@types/node@18.16.2)
       yaml: 2.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.3.1(@types/node@18.16.0):
+  /vite@4.3.1(@types/node@18.16.2):
     resolution: {integrity: sha512-EPmfPLAI79Z/RofuMvkIS0Yr091T2ReUoXQqc5ppBX/sjFRhHKiPPF/R46cTdoci/XgeQpB23diiJxq5w30vdg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4213,7 +4213,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.16.0
+      '@types/node': 18.16.2
       esbuild: 0.17.12
       postcss: 8.4.23
       rollup: 3.20.7
