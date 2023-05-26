@@ -76,8 +76,8 @@ devDependencies:
     specifier: 5.0.4
     version: 5.0.4
   unplugin-auto-import:
-    specifier: 0.16.1
-    version: 0.16.1
+    specifier: 0.16.2
+    version: 0.16.2
   vite:
     specifier: 4.3.8
     version: 4.3.8(@types/node@18.16.16)
@@ -4146,8 +4146,8 @@ packages:
       - rollup
     dev: true
 
-  /unplugin-auto-import@0.16.1:
-    resolution: {integrity: sha512-H3Ky56cGEEHTssxUIFuGXTowGVlT/Bp3MBx1yyCzUHzAtdrO+2r9zpid32f2AkTpQxo2lch6yaTK61Im+rEyPQ==}
+  /unplugin-auto-import@0.16.2:
+    resolution: {integrity: sha512-t5f+xArJZRsfgF8Zftc2JFTJJTo7BPkPSeLQUXt6xxambnwWBer8vpEgwaCYrR50MIm5mjmhjebt33OZXIW0uQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': ^3.2.2
