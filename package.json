@@ -19,7 +19,7 @@
     "@babel/core": "7.22.5",
     "@iconify-json/carbon": "1.1.18",
     "@svgr/core": "8.0.0",
-    "@types/node": "18.16.18",
+    "@types/node": "18.16.19",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "@typescript-eslint/eslint-plugin": "5.60.1",
