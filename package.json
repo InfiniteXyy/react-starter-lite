@@ -27,7 +27,7 @@
     "@vercel/style-guide": "4.0.2",
     "@vitejs/plugin-react": "4.0.4",
     "autoprefixer": "10.4.14",
-    "eslint": "8.46.0",
+    "eslint": "8.47.0",
     "postcss": "8.4.27",
     "prettier": "3.0.1",
     "prettier-plugin-organize-imports": "3.2.3",
