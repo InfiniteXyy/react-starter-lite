@@ -16,7 +16,7 @@
     "react-use": "17.4.0"
   },
   "devDependencies": {
-    "@babel/core": "7.22.10",
+    "@babel/core": "7.22.11",
     "@iconify-json/carbon": "1.1.19",
     "@svgr/core": "8.1.0",
     "@types/node": "18.17.6",
