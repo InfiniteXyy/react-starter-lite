@@ -20,7 +20,7 @@
     "@iconify-json/carbon": "1.1.21",
     "@svgr/core": "8.1.0",
     "@types/node": "20.8.10",
-    "@types/react": "18.2.34",
+    "@types/react": "18.2.35",
     "@types/react-dom": "18.2.14",
     "@typescript-eslint/eslint-plugin": "6.9.1",
     "@typescript-eslint/parser": "6.9.1",
