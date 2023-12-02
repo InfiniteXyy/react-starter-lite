@@ -26,8 +26,8 @@ devDependencies:
     specifier: 7.23.5
     version: 7.23.5
   '@iconify-json/carbon':
-    specifier: 1.1.23
-    version: 1.1.23
+    specifier: 1.1.24
+    version: 1.1.24
   '@svgr/core':
     specifier: 8.1.0
     version: 8.1.0
@@ -654,8 +654,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@iconify-json/carbon@1.1.23:
-    resolution: {integrity: sha512-Ue+IRSxCBt28KEM7nf0XeMqedxhK9ku8KtTnb8H3TM+QOMMBG8VnralEH0RnV11gzrhAadoMeeeRQ9Oey8TqlQ==}
+  /@iconify-json/carbon@1.1.24:
+    resolution: {integrity: sha512-Sx4vj3HfQj3yP6a4QzWc1BymDO5uTOGTHeb5it/xaMa196C6+RegNUv1F+Y1h8AJ2Sv93GMI+PyMH0HyqTHEmg==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
