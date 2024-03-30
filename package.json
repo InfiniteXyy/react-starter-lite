@@ -37,6 +37,6 @@
     "typescript": "5.4.3",
     "unplugin-auto-import": "0.17.5",
     "vite": "5.2.7",
-    "vite-plugin-pages": "0.32.0"
+    "vite-plugin-pages": "0.32.1"
   }
 }
