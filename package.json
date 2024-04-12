@@ -34,7 +34,7 @@
     "prettier-plugin-tailwindcss": "0.5.13",
     "tailwindcss": "3.4.3",
     "tailwindcss-iconify": "0.0.3",
-    "typescript": "5.4.4",
+    "typescript": "5.4.5",
     "unplugin-auto-import": "0.17.5",
     "vite": "5.2.8",
     "vite-plugin-pages": "0.32.1"
