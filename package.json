@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "clsx": "2.1.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-router-dom": "6.22.3",
     "react-use": "17.5.0"
   },
@@ -20,8 +20,8 @@
     "@iconify-json/carbon": "1.1.31",
     "@svgr/core": "8.1.0",
     "@types/node": "20.12.7",
-    "@types/react": "18.2.79",
-    "@types/react-dom": "18.2.25",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
     "@typescript-eslint/eslint-plugin": "7.7.1",
     "@typescript-eslint/parser": "7.7.1",
     "@vercel/style-guide": "6.0.0",
