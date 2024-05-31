@@ -88,8 +88,8 @@ importers:
         specifier: 5.2.12
         version: 5.2.12(@types/node@20.12.12)
       vite-plugin-pages:
-        specifier: 0.32.1
-        version: 0.32.1(vite@5.2.12(@types/node@20.12.12))
+        specifier: 0.32.2
+        version: 0.32.2(vite@5.2.12(@types/node@20.12.12))
 
 packages:
 
@@ -2062,6 +2062,9 @@ packages:
   picocolors@1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
 
+  picocolors@1.0.1:
+    resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
+
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
@@ -2682,13 +2685,22 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
-  vite-plugin-pages@0.32.1:
-    resolution: {integrity: sha512-4oPlIbb+J+zpJGfT2xI/27xqY+qTkRc3MBgWKfbW6IWM3CTcSyybuL9kRMCFRdBHfmgkF28qDs7fqVf/HjH1Xw==}
+  vite-plugin-pages@0.32.2:
+    resolution: {integrity: sha512-wX4lRlylcTggwHUH7bV1SVJpQMz4ZUkbzzAbbBBH5M7c/9Yx5rAqrjYELIca6vLCoCpSd+r6/WI7KnvRK/Drcg==}
     peerDependencies:
+      '@solidjs/router': '*'
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
+      react-router: '*'
       vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0
+      vue-router: '*'
     peerDependenciesMeta:
+      '@solidjs/router':
+        optional: true
       '@vue/compiler-sfc':
+        optional: true
+      react-router:
+        optional: true
+      vue-router:
         optional: true
 
   vite@5.2.12:
@@ -2758,8 +2770,8 @@ packages:
     resolution: {integrity: sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==}
     engines: {node: '>= 14'}
 
-  yaml@2.4.1:
-    resolution: {integrity: sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==}
+  yaml@2.4.2:
+    resolution: {integrity: sha512-B3VqDZ+JAg1nZpaEmWtTXUlBneoGx6CPM9b0TENK6aoSu5t73dItudwdgmi6tHlIZZId4dZ9skcAQ2UbcyAeVA==}
     engines: {node: '>= 14'}
     hasBin: true
 
@@ -5016,6 +5028,8 @@ snapshots:
 
   picocolors@1.0.0: {}
 
+  picocolors@1.0.1: {}
+
   picomatch@2.3.1: {}
 
   pify@2.3.0: {}
@@ -5693,7 +5707,7 @@ snapshots:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-pages@0.32.1(vite@5.2.12(@types/node@20.12.12)):
+  vite-plugin-pages@0.32.2(vite@5.2.12(@types/node@20.12.12)):
     dependencies:
       '@types/debug': 4.1.12
       debug: 4.3.4
@@ -5702,9 +5716,9 @@ snapshots:
       fast-glob: 3.3.2
       json5: 2.2.3
       local-pkg: 0.5.0
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       vite: 5.2.12(@types/node@20.12.12)
-      yaml: 2.4.1
+      yaml: 2.4.2
     transitivePeerDependencies:
       - supports-color
 
@@ -5771,6 +5785,6 @@ snapshots:
 
   yaml@2.3.4: {}
 
-  yaml@2.4.1: {}
+  yaml@2.4.2: {}
 
   yocto-queue@0.1.0: {}
