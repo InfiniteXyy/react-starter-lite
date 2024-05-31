@@ -53,7 +53,7 @@ importers:
         version: 6.0.0(eslint@9.3.0)(prettier@3.2.5)(typescript@5.4.5)
       '@vitejs/plugin-react':
         specifier: 4.3.0
-        version: 4.3.0(vite@5.2.11(@types/node@20.12.12))
+        version: 4.3.0(vite@5.2.12(@types/node@20.12.12))
       autoprefixer:
         specifier: 10.4.19
         version: 10.4.19(postcss@8.4.38)
@@ -85,11 +85,11 @@ importers:
         specifier: 0.17.6
         version: 0.17.6(rollup@4.13.0)
       vite:
-        specifier: 5.2.11
-        version: 5.2.11(@types/node@20.12.12)
+        specifier: 5.2.12
+        version: 5.2.12(@types/node@20.12.12)
       vite-plugin-pages:
         specifier: 0.32.1
-        version: 0.32.1(vite@5.2.11(@types/node@20.12.12))
+        version: 0.32.1(vite@5.2.12(@types/node@20.12.12))
 
 packages:
 
@@ -1503,6 +1503,7 @@ packages:
 
   glob@7.1.6:
     resolution: {integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -2690,8 +2691,8 @@ packages:
       '@vue/compiler-sfc':
         optional: true
 
-  vite@5.2.11:
-    resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
+  vite@5.2.12:
+    resolution: {integrity: sha512-/gC8GxzxMK5ntBwb48pR32GGhENnjtY30G4A0jemunsBkiEZFw60s8InGpN8gkhHEkjnRK1aSAxeQgwvFhUHAA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3469,7 +3470,7 @@ snapshots:
       '@typescript-eslint/eslint-plugin': 7.10.0(@typescript-eslint/parser@7.10.0(eslint@9.3.0)(typescript@5.4.5))(eslint@9.3.0)(typescript@5.4.5)
       '@typescript-eslint/parser': 7.10.0(eslint@9.3.0)(typescript@5.4.5)
       eslint-config-prettier: 9.1.0(eslint@9.3.0)
-      eslint-import-resolver-alias: 1.1.2(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.10.0(eslint@9.3.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@9.3.0))
+      eslint-import-resolver-alias: 1.1.2(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.10.0(eslint@9.3.0)(typescript@5.4.5))(eslint@9.3.0))
       eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.10.0(eslint@9.3.0)(typescript@5.4.5))(eslint-plugin-import@2.29.1)(eslint@9.3.0)
       eslint-plugin-eslint-comments: 3.2.0(eslint@9.3.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.10.0(eslint@9.3.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@9.3.0)
@@ -3494,14 +3495,14 @@ snapshots:
       - supports-color
       - vitest
 
-  '@vitejs/plugin-react@4.3.0(vite@5.2.11(@types/node@20.12.12))':
+  '@vitejs/plugin-react@4.3.0(vite@5.2.12(@types/node@20.12.12))':
     dependencies:
       '@babel/core': 7.24.6
       '@babel/plugin-transform-react-jsx-self': 7.24.6(@babel/core@7.24.6)
       '@babel/plugin-transform-react-jsx-source': 7.24.6(@babel/core@7.24.6)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.2.11(@types/node@20.12.12)
+      vite: 5.2.12(@types/node@20.12.12)
     transitivePeerDependencies:
       - supports-color
 
@@ -4066,7 +4067,7 @@ snapshots:
     dependencies:
       eslint: 9.3.0
 
-  eslint-import-resolver-alias@1.1.2(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.10.0(eslint@9.3.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@9.3.0)):
+  eslint-import-resolver-alias@1.1.2(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.10.0(eslint@9.3.0)(typescript@5.4.5))(eslint@9.3.0)):
     dependencies:
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.10.0(eslint@9.3.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@9.3.0)
 
@@ -5692,7 +5693,7 @@ snapshots:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-pages@0.32.1(vite@5.2.11(@types/node@20.12.12)):
+  vite-plugin-pages@0.32.1(vite@5.2.12(@types/node@20.12.12)):
     dependencies:
       '@types/debug': 4.1.12
       debug: 4.3.4
@@ -5702,12 +5703,12 @@ snapshots:
       json5: 2.2.3
       local-pkg: 0.5.0
       picocolors: 1.0.0
-      vite: 5.2.11(@types/node@20.12.12)
+      vite: 5.2.12(@types/node@20.12.12)
       yaml: 2.4.1
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.2.11(@types/node@20.12.12):
+  vite@5.2.12(@types/node@20.12.12):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
