@@ -50,7 +50,7 @@ importers:
         version: 7.16.0(eslint@9.7.0)(typescript@5.5.3)
       '@vercel/style-guide':
         specifier: 6.0.0
-        version: 6.0.0(eslint@9.7.0)(prettier@3.3.2)(typescript@5.5.3)
+        version: 6.0.0(eslint@9.7.0)(prettier@3.3.3)(typescript@5.5.3)
       '@vitejs/plugin-react':
         specifier: 4.3.1
         version: 4.3.1(vite@5.3.3(@types/node@20.14.10))
@@ -64,14 +64,14 @@ importers:
         specifier: 8.4.39
         version: 8.4.39
       prettier:
-        specifier: 3.3.2
-        version: 3.3.2
+        specifier: 3.3.3
+        version: 3.3.3
       prettier-plugin-organize-imports:
         specifier: 4.0.0
-        version: 4.0.0(prettier@3.3.2)(typescript@5.5.3)
+        version: 4.0.0(prettier@3.3.3)(typescript@5.5.3)
       prettier-plugin-tailwindcss:
         specifier: 0.6.5
-        version: 0.6.5(prettier-plugin-organize-imports@4.0.0(prettier@3.3.2)(typescript@5.5.3))(prettier@3.3.2)
+        version: 0.6.5(prettier-plugin-organize-imports@4.0.0(prettier@3.3.3)(typescript@5.5.3))(prettier@3.3.3)
       tailwindcss:
         specifier: 3.4.4
         version: 3.4.4
@@ -2219,8 +2219,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.3.2:
-    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
+  prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3501,7 +3501,7 @@ snapshots:
       '@typescript-eslint/types': 7.5.0
       eslint-visitor-keys: 3.4.3
 
-  '@vercel/style-guide@6.0.0(eslint@9.7.0)(prettier@3.3.2)(typescript@5.5.3)':
+  '@vercel/style-guide@6.0.0(eslint@9.7.0)(prettier@3.3.3)(typescript@5.5.3)':
     dependencies:
       '@babel/core': 7.24.8
       '@babel/eslint-parser': 7.23.10(@babel/core@7.24.8)(eslint@9.7.0)
@@ -3522,10 +3522,10 @@ snapshots:
       eslint-plugin-tsdoc: 0.2.17
       eslint-plugin-unicorn: 51.0.1(eslint@9.7.0)
       eslint-plugin-vitest: 0.3.24(@typescript-eslint/eslint-plugin@7.16.0(@typescript-eslint/parser@7.16.0(eslint@9.7.0)(typescript@5.5.3))(eslint@9.7.0)(typescript@5.5.3))(eslint@9.7.0)(typescript@5.5.3)
-      prettier-plugin-packagejson: 2.4.12(prettier@3.3.2)
+      prettier-plugin-packagejson: 2.4.12(prettier@3.3.3)
     optionalDependencies:
       eslint: 9.7.0
-      prettier: 3.3.2
+      prettier: 3.3.3
       typescript: 5.5.3
     transitivePeerDependencies:
       - eslint-import-resolver-node
@@ -5089,25 +5089,25 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-organize-imports@4.0.0(prettier@3.3.2)(typescript@5.5.3):
+  prettier-plugin-organize-imports@4.0.0(prettier@3.3.3)(typescript@5.5.3):
     dependencies:
-      prettier: 3.3.2
+      prettier: 3.3.3
       typescript: 5.5.3
 
-  prettier-plugin-packagejson@2.4.12(prettier@3.3.2):
+  prettier-plugin-packagejson@2.4.12(prettier@3.3.3):
     dependencies:
       sort-package-json: 2.8.0
       synckit: 0.9.0
     optionalDependencies:
-      prettier: 3.3.2
+      prettier: 3.3.3
 
-  prettier-plugin-tailwindcss@0.6.5(prettier-plugin-organize-imports@4.0.0(prettier@3.3.2)(typescript@5.5.3))(prettier@3.3.2):
+  prettier-plugin-tailwindcss@0.6.5(prettier-plugin-organize-imports@4.0.0(prettier@3.3.3)(typescript@5.5.3))(prettier@3.3.3):
     dependencies:
-      prettier: 3.3.2
+      prettier: 3.3.3
     optionalDependencies:
-      prettier-plugin-organize-imports: 4.0.0(prettier@3.3.2)(typescript@5.5.3)
+      prettier-plugin-organize-imports: 4.0.0(prettier@3.3.3)(typescript@5.5.3)
 
-  prettier@3.3.2: {}
+  prettier@3.3.3: {}
 
   prop-types@15.8.1:
     dependencies:
