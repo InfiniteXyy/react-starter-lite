@@ -34,8 +34,8 @@ importers:
         specifier: 8.1.0
         version: 8.1.0
       '@types/node':
-        specifier: 20.14.11
-        version: 20.14.11
+        specifier: 20.14.12
+        version: 20.14.12
       '@types/react':
         specifier: 18.3.3
         version: 18.3.3
@@ -53,7 +53,7 @@ importers:
         version: 6.0.0(eslint@9.7.0)(prettier@3.3.3)(typescript@5.5.3)
       '@vitejs/plugin-react':
         specifier: 4.3.1
-        version: 4.3.1(vite@5.3.4(@types/node@20.14.11))
+        version: 4.3.1(vite@5.3.4(@types/node@20.14.12))
       autoprefixer:
         specifier: 10.4.19
         version: 10.4.19(postcss@8.4.39)
@@ -86,10 +86,10 @@ importers:
         version: 0.18.0(rollup@4.13.0)
       vite:
         specifier: 5.3.4
-        version: 5.3.4(@types/node@20.14.11)
+        version: 5.3.4(@types/node@20.14.12)
       vite-plugin-pages:
         specifier: 0.32.3
-        version: 0.32.3(vite@5.3.4(@types/node@20.14.11))
+        version: 0.32.3(vite@5.3.4(@types/node@20.14.12))
 
 packages:
 
@@ -637,8 +637,8 @@ packages:
   '@types/ms@0.7.31':
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
 
-  '@types/node@20.14.11':
-    resolution: {integrity: sha512-kprQpL8MMeszbz6ojB5/tU8PLN4kesnN8Gjzw349rDlNgsSzg90lAVj3llK99Dh7JON+t9AuscPPFW6mPbTnSA==}
+  '@types/node@20.14.12':
+    resolution: {integrity: sha512-r7wNXakLeSsGT0H1AU863vS2wa5wBOK4bWMjZz2wj+8nBx+m5PeIn0k8AloSLpRuiwdRQZwarZqHE4FNArPuJQ==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -3288,7 +3288,7 @@ snapshots:
 
   '@types/ms@0.7.31': {}
 
-  '@types/node@20.14.11':
+  '@types/node@20.14.12':
     dependencies:
       undici-types: 5.26.5
 
@@ -3503,14 +3503,14 @@ snapshots:
       - supports-color
       - vitest
 
-  '@vitejs/plugin-react@4.3.1(vite@5.3.4(@types/node@20.14.11))':
+  '@vitejs/plugin-react@4.3.1(vite@5.3.4(@types/node@20.14.12))':
     dependencies:
       '@babel/core': 7.24.9
       '@babel/plugin-transform-react-jsx-self': 7.24.6(@babel/core@7.24.9)
       '@babel/plugin-transform-react-jsx-source': 7.24.6(@babel/core@7.24.9)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.3.4(@types/node@20.14.11)
+      vite: 5.3.4(@types/node@20.14.12)
     transitivePeerDependencies:
       - supports-color
 
@@ -5681,7 +5681,7 @@ snapshots:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-pages@0.32.3(vite@5.3.4(@types/node@20.14.11)):
+  vite-plugin-pages@0.32.3(vite@5.3.4(@types/node@20.14.12)):
     dependencies:
       '@types/debug': 4.1.12
       debug: 4.3.5
@@ -5691,18 +5691,18 @@ snapshots:
       json5: 2.2.3
       local-pkg: 0.5.0
       picocolors: 1.0.1
-      vite: 5.3.4(@types/node@20.14.11)
+      vite: 5.3.4(@types/node@20.14.12)
       yaml: 2.4.5
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.3.4(@types/node@20.14.11):
+  vite@5.3.4(@types/node@20.14.12):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.39
       rollup: 4.13.0
     optionalDependencies:
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
       fsevents: 2.3.3
 
   webpack-sources@3.2.3: {}
