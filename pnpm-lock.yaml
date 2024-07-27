@@ -82,8 +82,8 @@ importers:
         specifier: 5.5.4
         version: 5.5.4
       unplugin-auto-import:
-        specifier: 0.18.0
-        version: 0.18.0(rollup@4.13.0)
+        specifier: 0.18.2
+        version: 0.18.2(rollup@4.13.0)
       vite:
         specifier: 5.3.4
         version: 5.3.4(@types/node@20.14.12)
@@ -801,6 +801,11 @@ packages:
 
   acorn@8.12.0:
     resolution: {integrity: sha512-RTvkC4w+KNXrM39/lWCUaG0IbRkWdCv7W/IOW9oU6SawyxulvkQy5HQPVTKxEjczcUvapcrw3cFx/60VN/NRNw==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  acorn@8.12.1:
+    resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -1791,9 +1796,6 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  jsonc-parser@3.2.0:
-    resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
-
   jsx-ast-utils@3.3.3:
     resolution: {integrity: sha512-fYQHZTZ8jSfmWZ0iyzfwiU4WDX4HpHbMCZ3gPlWYiCl3BoeOTsqKBqnTVfH2rYT7eP5c3sVbeSPHnnJOaTrWiw==}
     engines: {node: '>=4.0'}
@@ -1895,11 +1897,12 @@ packages:
     resolution: {integrity: sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==}
     engines: {node: '>=16 || 14 >=14.17'}
 
+  minimatch@9.0.5:
+    resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
+    engines: {node: '>=16 || 14 >=14.17'}
+
   minimist@1.2.6:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
-
-  mlly@1.4.2:
-    resolution: {integrity: sha512-i/Ykufi2t1EZ6NaPLdfnZk2AX8cs0d+mTzVKuPfqPKPatxLApaBoxJQ9x1/uckXtrS/U5oisPMDkNs0yQTaBRg==}
 
   mlly@1.7.1:
     resolution: {integrity: sha512-rrVRZRELyQzrIUAVMHxP97kv+G786pHmOKzuFII8zDYahFBS7qnHh2AlYSl1GAHhaMPCz6/oHjVMcfFYgFYHgA==}
@@ -2047,9 +2050,6 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
 
-  pathe@1.1.1:
-    resolution: {integrity: sha512-d+RQGp0MAYTIaDBIMmOfMwz3E+LOZnxx1HZd5R18mmCZY0QBlK0LDZfPc8FW8Ed2DlvsuE6PRjroDY+wg4+j/Q==}
-
   pathe@1.1.2:
     resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
 
@@ -2070,9 +2070,6 @@ packages:
   pirates@4.0.5:
     resolution: {integrity: sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==}
     engines: {node: '>= 6'}
-
-  pkg-types@1.0.3:
-    resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
 
   pkg-types@1.1.3:
     resolution: {integrity: sha512-+JrgthZG6m3ckicaOB74TwQ+tBWsFl3qVQg7mN8ulwSOElJ7gBhKzj2VkCPnZ4NlF6kEquYU+RIYNVAvzd54UA==}
@@ -2635,9 +2632,6 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ufo@1.3.1:
-    resolution: {integrity: sha512-uY/99gMLIOlJPwATcMVYfqDSxUR9//AUcgZMzwfSTJPDKzA1S8mX4VLqa+fiAtveraQUBCz4FFcwVZBGbwBXIw==}
-
   ufo@1.5.3:
     resolution: {integrity: sha512-Y7HYmWaFwPUmkoQCUIAYpKqkOf+SbVj/2fJJZ4RJMCfZp0rTGwRbzQD+HghfnhKOjL9E01okqz+ncJskGYfBNw==}
 
@@ -2647,11 +2641,11 @@ packages:
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  unimport@3.7.2:
-    resolution: {integrity: sha512-91mxcZTadgXyj3lFWmrGT8GyoRHWuE5fqPOjg5RVtF6vj+OfM5G6WCzXjuYtSgELE5ggB34RY4oiCSEP8I3AHw==}
+  unimport@3.9.0:
+    resolution: {integrity: sha512-H2ftTISja1BonUVdOKRos6HC6dqYDR40dQTZY3zIDJ/5/z4ihncuL0LqLvtxYqUDMib41eAtunQUhXIWTCZ8rA==}
 
-  unplugin-auto-import@0.18.0:
-    resolution: {integrity: sha512-DZcj8tceMpwuZgBPM9hhKd7v05WAYCUc/qYjxV7vGbeVCGsQ8SHWumCyOYBDqYzkPd4FlQkuh+OH0cWgdCjcdw==}
+  unplugin-auto-import@0.18.2:
+    resolution: {integrity: sha512-Dwb3rAic75harVBrVjwiq6H24PT+nBq2dpxV5BH8NNI6sDFaTytvP+iyo4xy7prQbR3r5K6nMs4f5Wp9PE4g8A==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': ^3.2.2
@@ -3521,6 +3515,8 @@ snapshots:
       acorn: 8.12.0
 
   acorn@8.12.0: {}
+
+  acorn@8.12.1: {}
 
   ajv@6.12.6:
     dependencies:
@@ -4719,8 +4715,6 @@ snapshots:
 
   json5@2.2.3: {}
 
-  jsonc-parser@3.2.0: {}
-
   jsx-ast-utils@3.3.3:
     dependencies:
       array-includes: 3.1.7
@@ -4758,8 +4752,8 @@ snapshots:
 
   local-pkg@0.5.0:
     dependencies:
-      mlly: 1.4.2
-      pkg-types: 1.0.3
+      mlly: 1.7.1
+      pkg-types: 1.1.3
 
   locate-path@5.0.0:
     dependencies:
@@ -4818,14 +4812,11 @@ snapshots:
     dependencies:
       brace-expansion: 2.0.1
 
-  minimist@1.2.6: {}
-
-  mlly@1.4.2:
+  minimatch@9.0.5:
     dependencies:
-      acorn: 8.12.0
-      pathe: 1.1.1
-      pkg-types: 1.0.3
-      ufo: 1.3.1
+      brace-expansion: 2.0.1
+
+  minimist@1.2.6: {}
 
   mlly@1.7.1:
     dependencies:
@@ -4986,8 +4977,6 @@ snapshots:
 
   path-type@4.0.0: {}
 
-  pathe@1.1.1: {}
-
   pathe@1.1.2: {}
 
   picocolors@1.0.0: {}
@@ -4999,12 +4988,6 @@ snapshots:
   pify@2.3.0: {}
 
   pirates@4.0.5: {}
-
-  pkg-types@1.0.3:
-    dependencies:
-      jsonc-parser: 3.2.0
-      mlly: 1.4.2
-      pathe: 1.1.1
 
   pkg-types@1.1.3:
     dependencies:
@@ -5607,8 +5590,6 @@ snapshots:
 
   typescript@5.5.4: {}
 
-  ufo@1.3.1: {}
-
   ufo@1.5.3: {}
 
   unbox-primitive@1.0.2:
@@ -5620,10 +5601,10 @@ snapshots:
 
   undici-types@5.26.5: {}
 
-  unimport@3.7.2(rollup@4.13.0):
+  unimport@3.9.0(rollup@4.13.0):
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.13.0)
-      acorn: 8.12.0
+      acorn: 8.12.1
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
       fast-glob: 3.3.2
@@ -5638,15 +5619,15 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  unplugin-auto-import@0.18.0(rollup@4.13.0):
+  unplugin-auto-import@0.18.2(rollup@4.13.0):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.1.0(rollup@4.13.0)
       fast-glob: 3.3.2
       local-pkg: 0.5.0
       magic-string: 0.30.10
-      minimatch: 9.0.4
-      unimport: 3.7.2(rollup@4.13.0)
+      minimatch: 9.0.5
+      unimport: 3.9.0(rollup@4.13.0)
       unplugin: 1.11.0
     transitivePeerDependencies:
       - rollup
