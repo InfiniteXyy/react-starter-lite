@@ -34,8 +34,8 @@ importers:
         specifier: 8.1.0
         version: 8.1.0
       '@types/node':
-        specifier: 20.17.5
-        version: 20.17.5
+        specifier: 22.8.6
+        version: 22.8.6
       '@types/react':
         specifier: 18.3.12
         version: 18.3.12
@@ -53,7 +53,7 @@ importers:
         version: 6.0.0(eslint@9.14.0(jiti@1.21.0))(prettier@3.3.3)(typescript@5.6.3)
       '@vitejs/plugin-react':
         specifier: 4.3.3
-        version: 4.3.3(vite@5.4.10(@types/node@20.17.5))
+        version: 4.3.3(vite@5.4.10(@types/node@22.8.6))
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.4.47)
@@ -86,10 +86,10 @@ importers:
         version: 0.18.3(rollup@4.21.0)(webpack-sources@3.2.3)
       vite:
         specifier: 5.4.10
-        version: 5.4.10(@types/node@20.17.5)
+        version: 5.4.10(@types/node@22.8.6)
       vite-plugin-pages:
         specifier: 0.32.3
-        version: 0.32.3(vite@5.4.10(@types/node@20.17.5))
+        version: 0.32.3(vite@5.4.10(@types/node@22.8.6))
 
 packages:
 
@@ -679,8 +679,8 @@ packages:
   '@types/ms@0.7.31':
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
 
-  '@types/node@20.17.5':
-    resolution: {integrity: sha512-n8FYY/pRxu496441gIcAQFZPKXbhsd6VZygcq+PTSZ75eMh/Ke0hCAROdUa21qiFqKNsPPYic46yXDO1JGiPBQ==}
+  '@types/node@22.8.6':
+    resolution: {integrity: sha512-tosuJYKrIqjQIlVCM4PEGxOmyg3FCPa/fViuJChnGeEIhjA46oy8FMVoF9su1/v8PNs2a8Q0iFNyOx0uOF91nw==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -2720,8 +2720,8 @@ packages:
   unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
 
-  undici-types@6.19.6:
-    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
+  undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
   unimport@3.12.0:
     resolution: {integrity: sha512-5y8dSvNvyevsnw4TBQkIQR1Rjdbb+XjVSwQwxltpnVZrStBvvPkMPcZrh1kg5kY77kpx6+D4Ztd3W6FOBH/y2Q==}
@@ -3381,9 +3381,9 @@ snapshots:
 
   '@types/ms@0.7.31': {}
 
-  '@types/node@20.17.5':
+  '@types/node@22.8.6':
     dependencies:
-      undici-types: 6.19.6
+      undici-types: 6.19.8
 
   '@types/normalize-package-data@2.4.1': {}
 
@@ -3677,14 +3677,14 @@ snapshots:
       - supports-color
       - vitest
 
-  '@vitejs/plugin-react@4.3.3(vite@5.4.10(@types/node@20.17.5))':
+  '@vitejs/plugin-react@4.3.3(vite@5.4.10(@types/node@22.8.6))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx-self': 7.25.7(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-source': 7.25.7(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.10(@types/node@20.17.5)
+      vite: 5.4.10(@types/node@22.8.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -5788,7 +5788,7 @@ snapshots:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
 
-  undici-types@6.19.6: {}
+  undici-types@6.19.8: {}
 
   unimport@3.12.0(rollup@4.21.0)(webpack-sources@3.2.3):
     dependencies:
@@ -5853,7 +5853,7 @@ snapshots:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-pages@0.32.3(vite@5.4.10(@types/node@20.17.5)):
+  vite-plugin-pages@0.32.3(vite@5.4.10(@types/node@22.8.6)):
     dependencies:
       '@types/debug': 4.1.12
       debug: 4.3.5
@@ -5863,18 +5863,18 @@ snapshots:
       json5: 2.2.3
       local-pkg: 0.5.0
       picocolors: 1.0.1
-      vite: 5.4.10(@types/node@20.17.5)
+      vite: 5.4.10(@types/node@22.8.6)
       yaml: 2.4.5
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.4.10(@types/node@20.17.5):
+  vite@5.4.10(@types/node@22.8.6):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
       rollup: 4.21.0
     optionalDependencies:
-      '@types/node': 20.17.5
+      '@types/node': 22.8.6
       fsevents: 2.3.3
 
   webpack-sources@3.2.3:
