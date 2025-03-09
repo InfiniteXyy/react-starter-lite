@@ -1,24 +1,19 @@
-import { resolve } from 'path';
-import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react'
 
-import react from '@vitejs/plugin-react';
-import AutoImport from 'unplugin-auto-import/vite';
-import Pages from 'vite-plugin-pages';
+import autoImport from 'unplugin-auto-import/vite'
+import { defineConfig } from 'vite'
+import pages from 'vite-plugin-pages'
+import tsconfigPaths from 'vite-tsconfig-paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  resolve: {
-    alias: {
-      '@': `${resolve(__dirname, './src')}/`,
-    },
-  },
-  publicDir: 'public',
   plugins: [
+    tsconfigPaths(),
     react(),
-    Pages({ dirs: 'src/pages' }),
-    AutoImport({
+    pages({ dirs: 'src/pages' }),
+    autoImport({
       dts: './src/auto-import.d.ts',
       imports: ['react', 'react-router-dom'],
     }),
   ],
-});
+})

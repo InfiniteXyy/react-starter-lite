@@ -1,7 +1,9 @@
-export default function IndexPage() {
-  const [input, setInput] = useState('');
+import { AiFillCaretRight } from 'react-icons/ai'
 
-  const navigate = useNavigate();
+export default function IndexPage() {
+  const [input, setInput] = useState('')
+
+  const navigate = useNavigate()
   return (
     <>
       <input
@@ -11,14 +13,14 @@ export default function IndexPage() {
         value={input}
       />
       <button
-        className="flex items-center rounded bg-blue-100 py-1 px-4 font-bold transition disabled:opacity-40 dark:bg-blue-600 print:hidden"
+        className="flex items-center rounded bg-blue-100 px-4 py-1 font-bold transition disabled:opacity-40 dark:bg-blue-600 print:hidden"
         disabled={!input}
         onClick={() => navigate(`/hi/${input}`)}
         type="button"
       >
         <span>Go</span>
-        <div className="i-carbon-chevron-right ml-1 print:hidden" />
+        <AiFillCaretRight className="ml-1 print:hidden" />
       </button>
     </>
-  );
+  )
 }
