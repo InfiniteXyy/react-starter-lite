@@ -3,5 +3,6 @@
   "extends": ["config:base"],
   "schedule": ["every weekend"],
   "timezone": "Asia/Shanghai",
-  "automerge": true
+  "automerge": true,
+  "ignoreDeps": ["tailwindcss"]
 }
